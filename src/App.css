@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  
+}
+
+body{
+  background-color: #EDF8FF;
+}
+nav{
+  align-items: center;
+  min-height:  10vh;
+  color: white;
+}
+.hk{
+  text-align: center;
+  color: #52678E;
+  
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+
+}
+.day1{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 6vh;
+  padding: 1vh;
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background: #1565C0;
+  transition: 300ms;
+  border-radius: 2vh;
+  width: 40vw;
+  text-align: center;
+  box-shadow: 1px 1px 15px 1px #2196F3; 
+}
+
+.non,.day{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 6vh;
+  padding: 1vh;
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background: #3894D2;
+  border-radius: 2vh;
+  transition: 300ms;
+  width: 40vw;
+  text-align: center;
+  box-shadow: 1px 1px 15px 1px lightgrey; 
+}
+
+.oddiy{
+  border-radius: 2vh;
+  font-size: 6vh;
+  padding: 1vh;
+  display: block;
+  transition: 300ms;
+  width: 18vw;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+.oddiy1{
+  cursor: pointer;
+  font-size: 6vh;
+  padding: 1vh;
+  display: block;
+  transition: 300ms;
+  width: 18vw;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid transparent;
+  border-radius: 2vh;
+  box-shadow: 1px 1px 15px 1px #1565C0; 
+}
+.ooddiy{
+  margin: 15px;
+}
+
+a{
+  text-decoration:  none;
+  color: white;
+}
+
+.Oddiy{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+.oddiy img{
+  width: 70%;
+  box-shadow: 1px 1px 15px 1px lightgrey; 
+}
+.item{
+  width: 75vw;
+  justify-content: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 7vh;
+  padding: 5px 0 ;
+  border-radius: 2vh;
+  background: #3894D2;
+  transition: 300ms;
+  box-shadow: 1px 1px 15px 1px lightgrey;
+  margin-top: 30px;
+
+}
+
+.lists{
+  display: flex;
+  margin-top: 55px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.h1{
+  color: #52678E;
+    font-family: Open Sans-serif;
+    font-size: 6vh;
+    text-align: center;
+
+}
+
+.nonStopLine{
+    margin-top: 3vh;
+}
+.nonStopText{
+  margin-top: 50px ;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  color: #52678E;
+}
+.nonInfo{
+  display: flex;
+  text-align: center;
+font-size: 2rem;
+color: #52678E;
+
+}
+.nonStopInfo{
+  margin-top: 75px;
+  font-size: 3vw;
+
+  justify-content: center;
+}
+.NonStopinfo{
+  font-size: 5vh;
+}
+
+.nonStopLine{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+}
+.Footer{
+  margin-top: 20vh;
+  background: #424040;
+  height: 50vh;
+  display: flex;
+  width: 100vw;
+  
+}
+.left{
+  float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 40vw;
+}
+.left,.right{
+  margin-top:  40px;
+  float: left;
+ /* margin :  20px 76px;*/
+  width: 40vw;
+}
+
+
+.h4info{
+  color: white;
+    font-size: 4vh;
+    font-family: "Open Sans", sans-serif;
+
+}
+.FooterInfo{
+  margin:  40px 0 0 0;
+  color: white;
+  font-size: 2vh;
+  font-family: "Open Sans", sans-serif;
+}
+.TarBot{
+  color: white;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.nonStopInfooo{
+  margin-top: 50px;
+}
+.FooterInfo{
+  display: block;
+  justify-content: space-between
+}
+.Footer a{
+  color: #169AC5;
+}
+
+@media only screen and (max-width: 1000px) and (min-width:768px){
+  
+  .Footer{
+    height: 168vh;
+  }
+  
+}
+
+
+@media only screen and (max-width: 1700px) {
+ 
+  .Footer{
+    height: 50vh;
+  }
+  
+}
+@media only screen and (max-width: 620px) and (min-width: 320px){
+  .day, .non,.non1,.day1{
+    padding: 1vh;
+    font-size: 4vh;
+    margin: 5vh 3vw 5vh 2vw;
+  }
+ 
+  .item{
+    font-size: 4vh;
+    width: 95vw;
+    height: 7vh;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .Oddiy{
+    justify-content: center;
+    display: flex;
+    margin-top: 28px;
+  }
+  .oddiy{
+    font-size: 6vh;
+    padding: 1vh;
+    display: block;
+    transition: 300ms;
+    width: 32vw;
+    text-align: center;
+    margin: 10px;
+  }
+  .oddiy1{
+    font-size: 6vh;
+    padding: 1vh;
+    display: block;
+    transition: 300ms;
+    width: 32vw;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 1px 15px 1px #1565C0; 
+    
+  }
+  .nonStopText{
+    font-size: 6.5vw;
+    margin-top: 25px;
+  }
+  .h1{
+    font-size: 4vh;
+    text-align: center;
+   
+  }
+  .lists {
+    display: flex;
+    margin-top: 11px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .NonStopinfo{
+    font-size: 3.5vh;
+  }
+  .nonStopInfo{
+    font-size: 3vw;
+    margin-top: 25px;
+  }
+  .nonInfo{
+    width: 100vw;
+    margin: 0;
+  }
+  .DayStopInfo{
+    font-size: 1.5rem;
+  }
+  .FooterInfo{
+    font-size: 1.7vh;
+  }
+  .Footer{
+    width: 100vw;
+      float: left;
+      margin : 65px 0 0 1px;
+     height: 50vh;
+  }
+  .left{
+    float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 40vw;
+  }
+  .right{
+        float: right;
+    text-align: left;
+    margin-right: 5vw;
+    width: 45vw;
+  }
+  .TarBot{
+    font-size: 1.7vh;
+  }
+}
+
